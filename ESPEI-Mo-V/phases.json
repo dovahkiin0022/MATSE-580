@@ -1,0 +1,14 @@
+{
+  "components": ["MO", "V"],
+  "refdata": "SGTE91",
+  "phases": {
+	     "LIQUID" : {
+			"sublattice_model": [["CU", "MG"]],
+			"sublattice_site_ratios": [1]
+	     },
+	     "BCC_A2": {
+				"sublattice_model": [[ "CU", "MG" ]],
+			"sublattice_site_ratios": [1]
+	     }
+    }
+}

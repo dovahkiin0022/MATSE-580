@@ -1,0 +1,36 @@
+{
+    "components": ["V", "MO"],
+    "phases": ["LIQUID", "BCC_A2"],
+    "conditions": {
+	"P": 101325,
+      "T": [
+        2200.15,
+        2259.15,
+        2314.15,
+        2384.15,
+        2464.15,
+        2489.15,
+        2554.15,
+        2604.15,
+        2634.15,
+        2724.15,
+        2893.15
+      ]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+        [["BCC_A2", ["V"], [0]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.1]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.2]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.3]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.4]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.5]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.6]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.7]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.8]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [0.9]], ["LIQUID", ["V"],  [null]]],
+        [["BCC_A2", ["V"], [1.0]], ["LIQUID", ["V"],  [null]]]
+    ],
+    "reference": "Ternary phase equilibria in transition metal-boron-carbon-silicon systems: Part V, E. Rudy, Compendium of Phase Diagram Data, Air Force Materials Laboratory, US (1969)"
+}

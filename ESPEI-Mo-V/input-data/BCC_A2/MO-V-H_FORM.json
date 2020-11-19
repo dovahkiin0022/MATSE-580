@@ -1,0 +1,48 @@
+{
+  "components": ["MO","V"],
+  "phases": ["BCC_A2"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1],
+	  "sublattice_occupancies": [
+				[[0.9, 0.1]],
+				[[0.8, 0.2]],
+				[[0.7, 0.3]],
+				[[0.6, 0.4]],
+        [[0.5,0.5]],
+	      [[0.4,0.6]],
+	      [[0.3,0.7]],
+	      [[0.2,0.8]],
+	      [[0.1,0.9]]
+    ],
+	  "sublattice_configurations": [
+        [["MO", "V"]],
+        [["MO", "V"]],
+        [["MO", "V"]],
+        [["MO", "V"]],
+        [["MO", "V"]],
+	      [["MO","V"]],
+	      [["MO","V"]],
+	      [["MO","V"]],
+	      [["MO","V"]]
+    ]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": 1500
+  },
+  "output": "HM_FORM",
+    "values":   [[[
+        35750,
+        37110,
+        38060,
+        38890,
+        39340,
+        39330,
+        38860,
+        37850,
+        36930
+    ]]],
+  "reference": "BratbergFrisk2002",
+  "comment": "Data from Pycalphad modelling (estimated)"
+}
